@@ -4,7 +4,7 @@ library(fda)
 library(MASS)
 library(invgamma)
 
-#On génére un jeu de données
+#On génére un jeu de données pour verifier notre code avant de l'appliquer sur un vrai jeu de données
 
 n <- 100
 x <- runif(n, 0, 1)

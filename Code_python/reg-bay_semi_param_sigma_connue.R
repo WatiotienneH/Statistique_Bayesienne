@@ -3,7 +3,7 @@ library(splines)
 library(fda)
 library(MASS)
 
-#On génére un jeu de données
+#On génére un jeu de données pour verifier si notre algorithme fonctionne correctement
 n <- 100
 x <- runif(n, 0, 1)
 y <- sin(2 * pi * x) + rnorm(n, 0, 0.2)# On ajoute un bruit

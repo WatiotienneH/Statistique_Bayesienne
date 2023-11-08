@@ -3,7 +3,7 @@ library(fda)
 library(MASS)
 library(invgamma)
 
-chemin_fichier <-"C:/Users/hrywa/Desktop/Donnees_temperature/TX_STAID000037.txt"
+chemin_fichier <-"TX_STAID000037.txt"
 donnees <- read.table(chemin_fichier, sep = ",",header=TRUE ,skip = 20)
 
 #on retire les valeurs manquantes
